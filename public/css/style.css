@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* applies properties to all any links */
+:any-link{
+  color: #f4f4f8;
+}
+
+.header-section {
+  background-color: #f7931a;
+  color: #ffff;
+}
+
+.header-txt {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.form{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.currencies {
+  padding: 10px;
+  width: 23%;
+}
+@media screen and (max-width: 414px){
+  .currencies{
+    width: 40%;
+  }
+
+  .form{
+width: 40%;
+  }
+}
+
+.quantity {
+  padding: 5px;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 31%;
+}
+
+.buy-crypto{
+  font-style: italic;
+  padding: 10px;
+  font-size: 10px;
+  color: #f4f4f8;
+}
+
+.git-icon{
+  margin-top: 300px;
+  width: 100%
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 25px;
+  color: #f4f4f8;
+  text-align: center;
+}

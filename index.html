@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bitcoin Ticker</title>
+
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <!-- Google Text -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed&display=swap" rel="stylesheet">
+  <!-- Specify in CSS
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif; -->
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <section class="header-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- <i class="eth fab fa-ethereum"></i> -->
+        <!-- .fa-spin spins fontawesome icon -->
+        <h1 class="header-txt">Bitcoin Ticker <i class="btc rotate fab fa-bitcoin fa-spin"></i></h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- User Input -->
+  <section class="user-input">
+    <form action="/" method="post">
+      <div class="currencies container">
+        <div class="row justify-content-center">
+          <select class="form-control col-sm form" name="crypto">
+            <option value="BTC">Bitcoin</option>
+            <option value="ETH">Ethereum</option>
+            <option value="LTC">Litecoin</option>
+          </select>
+
+          <select class="form-control col-sm form" name="fiat">
+            <option value="USD">US Dollars</option>
+            <option value="GBP">GB Pounds</option>
+            <option value="EUR">EU Euros</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="input-quantity container">
+        <div class="row justify-content-center">
+          <!-- placeholder shows text in box -->
+          <input class="quantity form-control" type="text" name="amount" placeholder="Quantity">
+        </div>
+
+        <div class="submit-btn container">
+          <div class="row justify-content-center">
+            <button class="btn btn-outline-dark btn-md" type="submit" name="button">Check</button>
+          </div>
+        </div>
+        <div class="row buy-crypto justify-content-center">
+          <a href="https://gemini.com/">Buy Crypto</a>
+        </div>
+      </div>
+    </form>
+  </section>
+  <div class="footer container">
+    <div class="row justify-content-center">
+      <a href="www.github.com"><i class="fab fa-github git-icon"></i></a>
+    </div>
+  </div>
+</body>
+
+</html>
